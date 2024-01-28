@@ -5,7 +5,19 @@
     margin-left: 15rem;
 }
 
-.group, .atom {
+.group {
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    border-style: none;
+    border-width: 0.1rem;
+    margin-bottom: -0.1rem;
+    margin-right: -0.1rem;
+}
+
+.atom {
     background-color: #000000;
     width: 3rem;
     height: 3rem;
@@ -44,9 +56,11 @@
     width: 20rem;
     height: 30rem;
 }
+
 table {
     border: 2px solid #ffffff;
 }
+
 th {
     border: 2px solid #ffffff;
     padding-top: 0.5rem;
@@ -54,6 +68,7 @@ th {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 td {
     border: 1px solid #ffffff;
     padding-top: 0.5rem;
@@ -185,13 +200,6 @@ td {
 .letter {
     margin-left: -0.1rem;
     margin-top: 0.5rem;
-}
-
-.flex-container-groups .group  {
-    background-color: transparent;
-    width: 3rem;
-    height: 3rem;
-    border-style: none;
 }
 
 .radioactive {
